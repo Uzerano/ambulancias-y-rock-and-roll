@@ -1,0 +1,784 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind',
+        sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+.logo {
+    width: 60px
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    list-style: none;
+    align-items: center;
+    margin-right: 45px;
+}
+
+nav ul li:last-child {
+    margin-top: -17px;
+    margin-right: 0;
+}
+
+nav {
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #000;
+    font-style: italic;
+}
+
+.menu {
+    padding-top: 10px;
+}
+
+/*INICIO*/
+
+#inicio {
+    background: url(imagenes/madrid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 90vh;
+
+}
+
+
+
+h1 {
+    margin: 0;
+    text-align: left;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    letter-spacing: 10px;
+    padding-top: 100px;
+}
+
+.gif img {
+    width: 100%;
+}
+
+.gif {
+    width: 20%;
+    position: relative;
+    top: 20%;
+}
+
+.rock {
+    position: relative;
+    top: -32%;
+    width: 50%;
+    left: 50%;
+    display: none;
+}
+
+.rock img {
+    width: 100%;
+}
+
+.h1-oculto {
+    display: none;
+}
+
+/*AMBULANCIAS*/
+
+#ambulancias {
+    padding: 70px 0;
+    background: #eed54531;
+    height: 110vh;
+}
+
+h2 {
+    font-size: 40px;
+    color: #666;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+hr {
+    width: 20%;
+    background: #ff9100e0;
+    height: 1px;
+}
+
+.tarjeta {
+    width: 20%;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 40%;
+}
+
+.contenedor-arriba,
+.contenedor-abajo {
+    display: flex;
+    margin: 40px;
+}
+
+.contenedor-arriba {
+    justify-content: space-between;
+
+}
+
+.contenedor-abajo {
+    justify-content: space-evenly;
+}
+
+.tarjeta {
+    background: linear-gradient(rgba(243, 4, 16, 0.842),
+            rgba(243, 241, 111, 0.589));
+    box-shadow: 13px 12px 15px 0px #2d3dec40;
+    padding: 10px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#ambulancias .texto {
+    width: 70%;
+    padding: 20px;
+    font-family: "Lobster", cursive;
+    font-style: italic;
+    font-weight: 100;
+    color: #666;
+    letter-spacing: 3px;
+}
+
+/*EMERGENCIAS*/
+
+#emergencias {
+    background: #333;
+}
+
+#emergencias .contenedor {
+    background: linear-gradient(#fcd70798, #f50606b0),
+        url(imagenes/foto112.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
+}
+
+#emergencias h2 {
+    font-size: 100px;
+    color: #fff;
+}
+
+/*GALERIA*/
+
+#galeria {
+
+    padding: 70px 0;
+}
+
+#galeria hr,
+#comentarios hr,
+#equipo hr {
+    margin-bottom: 50px;
+}
+
+.contenedor-fotos {
+    display: flex;
+    justify-content: space-around;
+}
+
+#galeria .izquierda,
+#galeria .centro,
+#galeria .derecha {
+    width: 34%;
+}
+
+#galeria .izquierda {
+    margin-top: 150px;
+}
+
+
+
+#galeria .derecha {
+    margin-top: -195px;
+}
+
+#galeria .foto img {
+    width: 100%;
+}
+
+#galeria .foto {
+    width: 100%;
+
+}
+
+/*ROCK*/
+
+#rock, .jQueryMosaic {
+    background: #333;
+}
+
+#rock h2 {
+    padding: 70px 0 0 0;
+}
+
+.foto-mosaico {
+    overflow: hidden;
+    	transition: opacity .2s ease-in-out;
+    	-moz-transition: opacity .2s ease-in-out;
+    	-webkit-transition: opacity .2s ease-in-out;
+}
+
+.foto-mosaico:hover {
+    transform: scale(1.2);
+    opacity: .5;
+    
+}
+
+.texto-rock {
+    width: 30%;
+    margin: auto;
+    box-shadow: inset -12px -15px 20px 11px #007eff42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 50px;
+}
+
+/*COMENTARIOS*/
+
+#comentarios {
+    padding: 70px 0;
+    background: #adacac4b;
+}
+
+#comentarios .contenedor-comentarios {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0;
+    color: #666;
+}
+
+.comentario-texto {
+    font-style: italic;
+}
+
+.comentario-texto p {
+    line-height: 30px;
+    font-weight: 100;
+    color: #fff;
+    box-shadow: 13px 16px 18px 8px #a2c0d5;
+    width: 73%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #4c73f5;
+}
+
+.imagen-derecha img {
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 11px 14px 12px 9px #b3b3b426;
+
+}
+
+.imagen-derecha {
+    width: 70%;
+}
+
+/*EQUIPO*/
+
+#equipo {
+    background: linear-gradient(rgba(4, 155, 243, 0.726),
+            rgba(252, 94, 3, 0.911)),
+        url(imagenes/madrid-torres.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.contenedor-equipo {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.imagen-equipo img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.imagen-equipo {
+    width: 10%;
+    margin: auto;
+}
+
+.imagen-equipo img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+.texto-equipo {
+    color: #fff;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    font-style: italic;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+#equipo h2 {
+    color: #fff;
+}
+
+
+/*CONTACTO*/
+
+#contacto {
+
+    text-align: center;
+}
+
+form {
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 45%;
+    padding: 10px;
+    margin: 80px 10px;
+    border: none;
+    border-bottom: 1px solid #4c73f5;
+    font-style: italic;
+    font-size: 18px;
+}
+
+textarea {
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid #4c73f5;
+    font-style: italic;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    padding: 20px 40px;
+    margin: 30px;
+    font-size: 20px;
+    background: #4c73f5;
+    color: #fff;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.correo,
+.wasap {
+    display: flex;
+    margin: 60px;
+    align-items: center;
+}
+
+.fas,
+.fab {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.fas {
+    color: #4c73f5;
+}
+
+#contacto .fab {
+    color: green;
+}
+
+.contacto i:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+.contacto p {
+    font-size: 20px;
+}
+
+/*FOOTER*/
+
+footer {
+    background: linear-gradient(rgba(243, 227, 4, 0.726),
+            rgba(252, 94, 3, 0.746)),
+        url(imagenes/fondo-footer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+
+.logo-footer img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.logo-footer {
+    width: 15%;
+}
+
+.logo-footer:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+footer li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+footer li a {
+    color: #fff;
+    font-style: italic;
+    color: #111;
+    font-family: 'Lobster', cursive;
+}
+
+footer li a:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.menu-footer a {
+    font-size: 20px;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.redes {
+    display: grid;
+}
+
+footer  .fab {
+    color: #fff;
+}
+
+footer .fab:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+    color: #4c73f5;
+}
+
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: red !important;
+}
+
+.final {
+    margin-top: 160px;
+}
+
+.copy {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.icono-menu {
+    display: none;
+}
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 800px) {
+
+    .h1-oculto,
+    .icono-menu {
+        display: block;
+    }
+
+ 
+
+    .gif,
+    .rock {
+        display: none !important;
+    }
+
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background: #ff0000;
+        display: none;
+    }
+
+    nav ul li {
+        margin: 10px 0 0 10px;
+    }
+
+    nav ul li:last-child {
+        margin: 20px 0 0 55px;
+    }
+
+    header a {
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+        padding-top: 170px;
+    }
+
+    #inicio {
+        background-position: center center;
+        height: 70vh;
+    }
+
+    #ambulancias {
+        padding: 35px 0;
+        height: 325vh;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .contenedor-arriba,
+    .contenedor-abajo {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .tarjeta {
+        width: 82%;
+        margin-bottom: 20px;
+    }
+
+    #emergencias .contenedor {
+        background-size: contain;
+        height: 40vh;
+    }
+
+    #emergencias h2 {
+        font-size: 42px;
+        padding-top: 180px;
+    }
+
+    .contenedor-fotos {
+        flex-direction: column;
+    }
+
+    #galeria .izquierda,
+    #galeria .centro,
+    #galeria .derecha {
+        width: 100%;
+    }
+
+    #galeria .izquierda,
+    #galeria .derecha {
+        margin-top: 0;
+    }
+
+    .texto-rock {
+        width: 75%;
+    }
+
+    .texto-rock p {
+        font-size: 14px;
+    }
+
+    .foto-mosaico {
+        width: 100%;
+    }
+
+    #comentarios .contenedor-comentarios {
+        flex-direction: column;
+    }
+
+    .izquierda .imagen-izquierda {
+        width: 100%;
+    }
+
+    .izquierda .imagen-izquierda img {
+        width: 100%;
+    }
+
+    .imagen-derecha {
+        width: 100%;
+    }
+
+    #equipo {
+        background-size: contain;
+        padding: 20px 0;
+        height: 40vh;
+    }
+
+    #equipo hr {
+        margin-bottom: 0;
+    }
+
+    .contenedor-equipo {
+        padding: 10px 0;
+    }
+
+    .imagen-equipo {
+        width: 25%;
+    }
+
+    .texto-equipo {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 87%;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    textarea {
+        width: 90%;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 14px;
+        letter-spacing: 5px;
+    }
+
+    .contacto {
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+
+    .contacto p {
+        font-size: 18px;
+    }
+
+    .correo,
+    .wasap {
+        margin: 0;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 120vh;
+
+    }
+
+    footer .contenedor {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .copy {
+        font-size: 10px;
+    }
+
+    .logo-footer {
+        width: 50%;
+    }
+
+    .menu-footer ul {
+        padding: 0;
+    }
+
+    .menu-footer a {
+        font-size: 18px;
+    }
+
+    .menu-footer {
+        margin-top: 40px;
+    }
+
+    .redes {
+        display: inline-block;
+        padding: 45px;
+    }
+
+    .fab {
+        margin-left: 20px;
+    }
+
+}
