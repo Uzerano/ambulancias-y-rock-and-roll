@@ -784,7 +784,26 @@ footer .fab:hover {
 }
 
 @media (max-width: 360px){
+    nav ul li:last-child {
+        margin: 20px 0 0 10px;
+    }
+    
+    h1{
+        font-size: 35px;
+        padding-top: 100px;
+    }
+
     #emergencias{
         margin-top: 230px;
     }
+
+    #emergencias h2{
+        font-size: 30px;
+    }
+
+    footer .contenedor{
+        height: 77vh;
+    }
+
+
 } 
