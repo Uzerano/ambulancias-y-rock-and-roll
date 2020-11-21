@@ -784,7 +784,7 @@ footer .fab:hover {
 }
 
 @media (max-width: 360px){
-    #emergencias .contenedor{
-        margin-top: 200px;
+    #emergencias{
+        margin-top: 230px;
     }
 } 
