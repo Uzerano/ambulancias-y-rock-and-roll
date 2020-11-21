@@ -787,7 +787,7 @@ footer .fab:hover {
     nav ul li:last-child {
         margin: 20px 0 0 10px;
     }
-    
+
     h1{
         font-size: 35px;
         padding-top: 100px;
@@ -805,5 +805,13 @@ footer .fab:hover {
         height: 77vh;
     }
 
+    .logo-footer{
+        padding-top: 20px;
+    }
+
+    .redes{
+        padding: 15px;
+        margin-top: 30px;
+    }
 
 } 
